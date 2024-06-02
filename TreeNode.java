@@ -7,12 +7,12 @@ public class TreeNode {
 
 
     public TreeNode() {}
-    public TreeNode(int customerID, String firstName, String lastName) {
+    public TreeNode(int customerID, String firstName, String lastName, String phoneNumber, String address) {
         this.customerID = customerID;
         this.firstName = firstName;
         this.lastName = lastName;
     }
-    public TreeNode(int customerID, String firstName, String lastName, TreeNode left, TreeNode right) {
+    public TreeNode(int customerID, String firstName, String lastName, String phoneNumber, String address, TreeNode left, TreeNode right) {
         this.customerID = customerID;
         this.firstName = firstName;
         this.lastName = lastName;
