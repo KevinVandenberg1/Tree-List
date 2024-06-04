@@ -8,20 +8,20 @@ public class Main {
     public static void main(String[] args) {
 
         TreeList list = new TreeList();
-        list.add(52, "James", "Apple", "3603838030", "52 Wallaby Way");
-        list.add(32, "Emily", "Apple", "3603838030", "52 Wallaby Way");
-        list.add(16, "Corban", "Apple", "3603838030", "52 Wallaby Way");
-        list.add(33, "Garry", "Apple", "3603838030", "52 Wallaby Way");
-        list.add(72, "Kevin", "Apple", "3603838030", "52 Wallaby Way");
-        list.add(83, "Indigo", "Apple", "3603838030", "52 Wallaby Way");
-        list.add(53, "Red", "Apple", "3603838030", "52 Wallaby Way");
-        list.remove(33);
+        list.add(52, "James", "Apple", "1234567890", "52 Wallaby Way");
+        list.add(32, "Emily", "Apple", "1234567890", "52 Wallaby Way");
+        list.add(16, "Corban", "Apple", "1234567890", "52 Wallaby Way");
+        list.add(33, "Garry", "Apple", "1234567890", "52 Wallaby Way");
+        list.add(72, "Kevin", "Apple", "1234567890", "52 Wallaby Way");
+        list.add(83, "Indigo", "Apple", "1234567890", "52 Wallaby Way");
+        list.add(53, "Red", "Apple", "1234567890", "52 Wallaby Way");
+        list.remove(16);
         System.out.println(list.contains(52));
         System.out.println(list.contains(33));
         System.out.println(list.contains(83));
-        list.edit(16, 700);
+        list.edit(16, "Red", "Apple", "1234567890", "52 Wallaby Way");
         list.preOrderPrint();
-        list.postOrderPrint();
-        list.inOrderPrint();
+        //list.postOrderPrint();
+        //list.inOrderPrint();
     }
 }
