@@ -1,7 +1,7 @@
 // Name: Kevin Vandenberg
 // Class: CS 145
 // Assignment: Lab 7
-// 
+// Extra credit: Throughout the TreeList file, I made all of the methods iterative rather than recursive
 // Notice: ChatGPT and GeeksForGeeks has been used to help get an idea
 //         about how to do various traversals iteratively.
 public class Main {
