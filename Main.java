@@ -21,7 +21,7 @@ public class Main {
         System.out.println(list.contains(83));
         list.edit(16, "Red", "Apple", "1234567890", "52 Wallaby Way");
         list.preOrderPrint();
-        //list.postOrderPrint();
-        //list.inOrderPrint();
+        list.postOrderPrint();
+        list.inOrderPrint();
     }
 }
